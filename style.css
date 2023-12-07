@@ -1,0 +1,11 @@
+[class^='container'] {
+    border: 1px dashed blue;
+}
+
+[class^='row'] {
+    border: 1px solid green;
+}
+
+[class^='col'] {
+    border: 1px solid yellow;
+}
