@@ -11,6 +11,11 @@
     min-height: 50px;
 }
 
+.my-container-s {
+    max-width: 60%;
+    margin: 0 auto;
+}
+
 a {
     text-decoration: none;
     color: white;
@@ -31,6 +36,7 @@ header .row {
     padding: 5px 10px;
 }
 
+
 .header-bottom {
     height: 400px;
     border: 1px solid red;
@@ -49,4 +55,16 @@ header .row {
 .jumbo-bottom {
     height: 30%;
     border: 1px solid white;
+}
+
+
+/* *** Address *** */
+
+.row.contact>* {
+    border-bottom: 1px solid grey;
+
+}
+
+.row.contact {
+    margin-bottom: 50px;
 }
