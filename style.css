@@ -38,15 +38,15 @@ header .row {
 
 .jumbotron {
     height: 100%;
-    border: 1px solid black;
+    border: 1px solid white;
 }
 
 .jumbo-top {
     height: 70%;
-    border: 1px solid black;
+    border: 1px solid white;
 }
 
 .jumbo-bottom {
     height: 30%;
-    border: 1px solid black;
+    border: 1px solid white;
 }
