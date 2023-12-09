@@ -68,3 +68,9 @@ header .row {
 .row.contact {
     margin-bottom: 50px;
 }
+
+
+/* *** Footer *** */
+footer {
+    min-height: 300px;
+}
