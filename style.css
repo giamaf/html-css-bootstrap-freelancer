@@ -8,4 +8,45 @@
 
 [class^='col'] {
     border: 1px solid yellow;
+    min-height: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Header */
+header .row {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fa-bars {
+    border: 1px solid white;
+    padding: 5px 10px;
+}
+
+.header-bottom {
+    height: 400px;
+    border: 1px solid red;
+}
+
+.jumbotron {
+    height: 100%;
+    border: 1px solid black;
+}
+
+.jumbo-top {
+    height: 70%;
+    border: 1px solid black;
+}
+
+.jumbo-bottom {
+    height: 30%;
+    border: 1px solid black;
 }
