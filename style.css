@@ -1,4 +1,4 @@
-[class^='container'] {
+/* [class^='container'] {
     border: 1px dashed blue;
 }
 
@@ -9,7 +9,7 @@
 [class^='col'] {
     border: 1px solid yellow;
     min-height: 50px;
-}
+} */
 
 .my-container-s {
     max-width: 60%;
@@ -25,52 +25,97 @@ img {
     max-width: 100%;
 }
 
-/* Header */
-header .row {
-    justify-content: space-between;
-    align-items: center;
+.my-bg-color-dark {
+    background-color: rgb(41, 61, 78);
 }
 
-.fa-bars {
-    border: 1px solid white;
-    padding: 5px 10px;
+.my-bg-color-dark-plus {
+    background-color: rgba(0, 0, 0, 0.5)
 }
 
-
-.header-bottom {
-    height: 400px;
-    border: 1px solid red;
+.my-bg-color-green {
+    background-color: rgb(88, 185, 157);
 }
 
-.jumbotron {
-    height: 100%;
-    border: 1px solid white;
-}
-
-.jumbo-top {
-    height: 70%;
-    border: 1px solid white;
-}
-
-.jumbo-bottom {
-    height: 30%;
-    border: 1px solid white;
-}
-
-
-/* *** Address *** */
-
-.row.contact>* {
+.my-border-bottom-grey {
     border-bottom: 1px solid grey;
-
 }
 
-.row.contact {
-    margin-bottom: 50px;
+.my-font-color-green {
+    color: rgb(88, 185, 157);
 }
 
+.star-line-white {
+    width: 12%;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.star-line-black {
+    width: 12%;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.btn-outline-green {
+    color: white;
+    background-color: rgb(88, 185, 157);
+}
+
+.btn:hover {
+    border-color: black
+}
+
+::placeholder {
+    color: black;
+    opacity: 1;
+}
+
+/* Header */
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+/* Jumbotron */
+.navbar-brand,
+.nav-link {
+    color: white;
+}
+
+.nav-item {
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.image-avatar {
+    width: 250px;
+}
+
+.navbar-toggler {
+    border: var(--bs-border-width) solid white;
+}
+
+.navbar-toggler-icon {
+    filter: invert(1);
+}
 
 /* *** Footer *** */
 footer {
     min-height: 300px;
+}
+
+.fa-brands {
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 15px;
+    width: 50px;
+    height: 50px;
+}
+
+.footer-bottom {
+    height: 120px;
+}
+
+.footer-bottom .row {
+    height: 100%;
 }
